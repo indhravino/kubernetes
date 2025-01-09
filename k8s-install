@@ -116,6 +116,6 @@ kubeadm join 166.0.2.0:6443 --token 041tu2.habuutew3r9nxujb \
 kubectl run nginx-pod --image=nginx:latest --port=80
  
 #LOGIN TO POD AND CHECK THE INTERNET CONNECTION
-kubectl exec -it nginx-pods /bin/sh
+kubectl exec -it nginx-pod /bin/sh
 
 #apt update
